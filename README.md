@@ -12,7 +12,7 @@ This Library is developed and released by Intel Corporation in 1999.
 made using c++
 
 =================================================
-  Application Area:
+  <h3>Application Area:</h3>
 -----------------------
 
 --> 2D and 3D feature toolkit
