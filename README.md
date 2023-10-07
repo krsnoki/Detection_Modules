@@ -15,16 +15,17 @@ made using c++
   <h3>Application Area:</h3>
 -----------------------
 
---> 2D and 3D feature toolkit
---> Facial Recognition
---> Gesture Recogition
---> HCI--> Human Computer Interaction
---> Mobile Robotics
---> Motion Understanding
---> Object Detection
---> Segmentation
---> SFM
---> Argumented Reality
+<p>--> 2D and 3D feature toolkit</p>
+<p>--> Facial Recognition</p>
+<p>--> Gesture Recogition</p>
+<P>--> HCI</P>
+<p>--> Human Computer Interaction</p>
+<p>--> Mobile Robotics</p>
+<p>--> Motion Understanding</p>
+<p>--> Object Detection</p>
+<p>--> Segmentation</p>
+<p>--> SFM</p>
+<p>--> Argumented Reality</p>
 
 OpenCV uses Statistical Machine Libraries
 Statistical means a numeric values, that numbers are helpful to identify the reallife things.
@@ -61,19 +62,19 @@ converting image into grayscale:
 
 variable = cv2.imread("imgname", cv2.IMREAD GRAYSCALE)
 
-resizing of image:
+<br/>resizing of image:
 ---------------------
 variable = cv2.resize(var_in_which_image_is_stored, (size you want in breadth, height))
 
 how to save the image in python:
 cv2.imwrite("imagename.extension", img_variable);
 
-
+<br/>
   Eroding:
 -------------
 
-kernal : is an array composed of only one, it is worked out with numpy.
-numpy:
+<br/>kernal : is an array composed of only one, it is worked out with numpy.
+<br/>numpy:
 	there is a data on which we have to apply statistics.
 how to create kernal: 
 var = np.ones((5,5), np.uint8)
@@ -81,7 +82,7 @@ var = np.ones((5,5), np.uint8)
 1. read the image
 2. cv2.erode(image, ker)
 
-BLUR:
+<h2>BLUR:</h2>
 
 why to blur image:
 ---------------------------
